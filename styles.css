@@ -1,7 +1,17 @@
-h1{color: coral;}
+h1{color: dodgerblue;}
+h1{font-size: 40px;}
 /* esto es un comentario */
 /* esto 
 * es
 * un comentario
 * multilinea 
 */
+
+body{background-color: darkslategrey;}
+*{color: dodgerblue;} /*cambia todas las palabras a este color*/
+
+/* body{background-image:url("aca va el url de la foto para que vaya de fondo");} */
+
+#foto-body{
+    width: 30%;
+}
