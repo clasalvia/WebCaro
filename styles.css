@@ -1,4 +1,4 @@
-h1{color: dodgerblue;}
+h1{color:#74BDCB;}
 h1{font-size: 40px;}
 /* esto es un comentario */
 /* esto 
@@ -7,8 +7,8 @@ h1{font-size: 40px;}
 * multilinea 
 */
 
-body{background-color: darkslategrey;}
-*{color: dodgerblue;} /*cambia todas las palabras a este color*/
+body{background-color: #EFE7BC;}
+*{color: #74BDCB;} /*cambia todas las palabras a este color*/
 
 /* body{background-image:url("aca va el url de la foto para que vaya de fondo");} */
 
@@ -19,7 +19,20 @@ body{background-color: darkslategrey;}
 
 #modeloDeCaja{
     width: 300px;
-    border: 10px solid black; /*una propiedad puede recibir varios valores */
+    border: 10px none black; /*una propiedad puede recibir varios valores */
     margin: 20px;
 }
 
+#foto-mail{
+    width: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+#foto-wpp{
+    width: 55px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+}
