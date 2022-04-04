@@ -12,6 +12,21 @@ body{background-color: #EFE7BC;}
 
 /* body{background-image:url("aca va el url de la foto para que vaya de fondo");} */
 
+header{
+    position: sticky;
+    position: -webkit-sticky; /*Safari*/
+    top: 0px;
+    background-color: #FFA384;
+}
+
+menu{
+    list-style-type: none;
+}
+
+menu > a > li{
+    display: inline;
+}
+
 #foto-body{
     width: 30%;
     position: relative; left:200px
