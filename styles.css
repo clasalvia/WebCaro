@@ -32,6 +32,8 @@ menu > a > li{
 }
 
 .col{border: 1px solid #FFA384}
+.btn btn btn-info {background-color: #FFA384;}
+
 
 #foto-body{
     width: 30%;
