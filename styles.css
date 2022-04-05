@@ -19,17 +19,23 @@ header{
     background-color: #FFA384;
 }
 
+#logo-header{width: 3%; 
+    display: inline;}
+
 menu{
     list-style-type: none;
 }
 
 menu > a > li{
     display: inline;
+    color: black;
 }
+
+.col{border: 1px solid #FFA384}
 
 #foto-body{
     width: 30%;
-    position: relative; left:200px
+    
 }
 
 #modeloDeCaja{
@@ -51,3 +57,7 @@ menu > a > li{
     bottom: 40px;
     right: 10px;
 }
+
+footer{position: fixed;
+bottom: 0px;
+color: black;}
