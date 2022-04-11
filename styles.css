@@ -14,4 +14,12 @@ body{background-color: darkslategrey;}
 
 #foto-body{
     width: 30%;
+    position: relative; left:200px
 }
+
+#modeloDeCaja{
+    width: 300px;
+    border: 10px solid black; /*una propiedad puede recibir varios valores */
+    margin: 20px;
+}
+
