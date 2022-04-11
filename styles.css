@@ -13,11 +13,10 @@ body{background-color: #EFE7BC;}
 /* body{background-image:url("aca va el url de la foto para que vaya de fondo");} */
 
 header{
-    position: sticky;
-    position: -webkit-sticky; /*Safari*/
-    top: 0px;
     background-color: #FFA384;
 }
+
+#barra{text-align: center;}
 
 #logo-header{width: 3%; 
     display: inline;}
