@@ -37,21 +37,11 @@ menu > a > li{
 
 #foto-body{
     width: 30%;
-<<<<<<< HEAD
-    position: relative; left:200px
-=======
     
->>>>>>> 356e008b977f7482b062efcb29884c718f8cf44c
 }
 
 #modeloDeCaja{
     width: 300px;
-<<<<<<< HEAD
-    border: 10px solid black; /*una propiedad puede recibir varios valores */
-    margin: 20px;
-}
-
-=======
     border: 10px none black; /*una propiedad puede recibir varios valores */
     margin: 20px;
 }
@@ -73,4 +63,3 @@ menu > a > li{
 footer{position: fixed;
 bottom: 0px;
 color: black;}
->>>>>>> 356e008b977f7482b062efcb29884c718f8cf44c
