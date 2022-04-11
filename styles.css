@@ -1,4 +1,4 @@
-h1{color: dodgerblue;}
+h1{color:#74BDCB;}
 h1{font-size: 40px;}
 /* esto es un comentario */
 /* esto 
@@ -7,19 +7,70 @@ h1{font-size: 40px;}
 * multilinea 
 */
 
-body{background-color: darkslategrey;}
-*{color: dodgerblue;} /*cambia todas las palabras a este color*/
+body{background-color: #EFE7BC;}
+*{color: #74BDCB;} /*cambia todas las palabras a este color*/
 
 /* body{background-image:url("aca va el url de la foto para que vaya de fondo");} */
 
+header{
+    position: sticky;
+    position: -webkit-sticky; /*Safari*/
+    top: 0px;
+    background-color: #FFA384;
+}
+
+#logo-header{width: 3%; 
+    display: inline;}
+
+menu{
+    list-style-type: none;
+}
+
+menu > a > li{
+    display: inline;
+    color: black;
+}
+
+.col{border: 1px solid #FFA384}
+.btn btn btn-info {background-color: #FFA384;}
+
+
 #foto-body{
     width: 30%;
+<<<<<<< HEAD
     position: relative; left:200px
+=======
+    
+>>>>>>> 356e008b977f7482b062efcb29884c718f8cf44c
 }
 
 #modeloDeCaja{
     width: 300px;
+<<<<<<< HEAD
     border: 10px solid black; /*una propiedad puede recibir varios valores */
     margin: 20px;
 }
 
+=======
+    border: 10px none black; /*una propiedad puede recibir varios valores */
+    margin: 20px;
+}
+
+#foto-mail{
+    width: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+#foto-wpp{
+    width: 55px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+}
+
+footer{position: fixed;
+bottom: 0px;
+color: black;}
+>>>>>>> 356e008b977f7482b062efcb29884c718f8cf44c
