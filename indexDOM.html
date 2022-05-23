@@ -33,14 +33,47 @@
             <p class="pConClass">Class</p>
             <p>Tag</p>
         </div>
+
+        <div> 
+            <h1 id="titular">tortas titulares</h1>
+            <input type="button" onclick = "cambiarTitular()"
+            value="Cambiar Texto"> <!--Cambiar texto con un boton parte HTML -->
+        </div>
+
+        <br>
+
+        <input type="button" value="revelar"
+        onclick="hacerAparecer()"> <!-- no pongo esto adentro del div asi no me desaparece el boton una vez que lo aprieto -->
+        <div id="vacio">
+        </div>
+        
     </main>
+
+    <ul>
+        <li class="paises"> argentina</li>
+        <li class="paises">alemania</li>
+        <li class="paises">italia</li>
+    </ul>
+    <input type="button" value="borrar pais"
+    onclick="borrarPais()">
+
+    <form action="" id="formulario">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre"> 
+        <br> <br>
+        <label for="edad">Edad: </label>
+        <input type="number" id="edad">
+        <input type="button" value="enter" onclick="oracionNueva()">
+        <input type="checkbox" name="bases" id="bases">
+        <label for="bases">Comprendio bases y condiciones</label>
+    </form>
 
     <footer></footer>
 
 <!-- DOM es modelo de objetos del documento permite modificar el html
 desde JS -->
 <!-- -->
-<!-- -->
+
 
 </body>
 <!--ahora va como hacer para que JS pueda editar este doc -->
