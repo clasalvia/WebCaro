@@ -13,9 +13,47 @@ body{background-color: #dddbcd;}
 /* body{background-image:url("aca va el url de la foto para que vaya de fondo");} */
 
 header{
-    background-color: #FFA384;
+    background-color: #cec5c2;
 }
 
+#barra-contacto{
+    margin-right:10px;
+}
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image to responsive */
+.image {
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
 
 #logo-header{width: 3%; 
     display: inline;}
@@ -24,13 +62,14 @@ menu{
     list-style-type: none;
 }
 
+
 menu > a > li{
     display: inline;
     color: black;
 }
 
-.col{border: 1px solid #FFA384}
-.btn btn btn-info {background-color: #FFA384;}
+.col{border: 1px solid #bbb2af}
+.btn btn btn-info {background-color: #aa948c;}
 
 
 #foto-body{
@@ -39,10 +78,10 @@ menu > a > li{
 }
 
 #modeloDeCaja{
-    width: 300px;
-    border: 10px none black; /*una propiedad puede recibir varios valores */
+    width: 400px; /*una propiedad puede recibir varios valores */
     margin: 20px;
-}
+    color: #976d5d;
+    }
 
 #foto-mail{
     width: 50px;
