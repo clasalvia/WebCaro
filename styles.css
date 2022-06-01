@@ -5,23 +5,32 @@
 * multilinea 
 */
 
+
+
 h3{color: #976d5d;}
 h5{color: #aa948c;}
-
-body{background-color: #be774e;}
 
 /* body{background-image:url("aca va el url de la foto para que vaya de fondo");} */
 
 /*body{background-image:url("./images/ceramica-principal.jpg");}*/
 
-
+/*
 nav {
     background-color: #e7a87e;
     padding: 10px;
     text-align: center;
     width: 100%;
-    position: sticky;
     top: 0px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }*/
+
+
+nav {
+    position: fixed;
+    bottom: 0;
+    right: 0;
   }
 
   nav a:hover {
@@ -55,7 +64,7 @@ body, html {
 }
 
 body {
-    background:#be997f;
+    background:#be774e;
   }
   
   .arrows {
