@@ -9,38 +9,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="./images/ceramica-logo.jpg" id="logo-header" alt="">
-        <a class="navbar-brand" href="index.html">Crear Ceramica</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#clases">Clases<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#docentes">Nuestros Docentes</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#proyectos">Proyectos</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#nosotros">Sobre Nosotros</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-              <a id="barra-contacto" class="nav-link" href="contacto.html">Inscripcion</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-  
+  <div class="navbar">
+    <img id="logo-header" src="./images/ceramica-logo.jpg" alt="">
+    <a href="index.html"><h4><strong>Crear Ceramica</strong></h4></a>
+    <a href="#clases"><h6>Clases</h6></a>
+    <a href="#docentes"><h6>Nuestros Docentes</h6></a>
+    <a href="#proyectos"><h6>Proyectos</h6></a>
+    <a href="#nosotros"><h6>Sobre Nosotros</h6></a>
+    <a href="contacto.html"><h6>Inscribirse</h6></a>
+  </div>
 </header>
+
 
 <body>
 
@@ -51,6 +31,7 @@
     </div>
   </div>
 
+  <!-- SECCION FLECHAS -->
   <a href="#clases">
   <svg class="arrows">
     <path class="a1" d="M0 0 L30 32 L60 0"></path>
@@ -59,31 +40,83 @@
   </svg>
 </a>
 
-<br>
 
-<div>
-  <h3 id="clases">Clases</h3>
-  <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi accusamus, nesciunt quibusdam ullam quo architecto repellendus ut molestias nisi earum, exercitationem quasi aspernatur consequatur corporis modi omnis obcaecati atque quisquam.</h5>
+
+<!-- SECCION CLASES -->
+
+<div class="row" id="clases">
+  <div class="column" onclick="openTab('b1');" style="background:rgb(223, 171, 75);">Clases para Principiantes</div>
+<div id="b1" class="containerTab" style="display:none;background:rgb(223, 171, 75)">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn" style="color: rgb(107, 67, 15);">x</span>
+  <img id="imagen-principiante" src="./images/ceramica-principal4.jpg" alt="">
+  <br>
+  <h3>Clases para Principiantes</h3>
+  <h4>Clases Grupales: Lunes, Miercoles y Jueves a las 11hs y a las 18hs </h4>
+  <h4>Clases Individuales: Contactarse con nosotros para coordinar horarios</h4>
 </div>
 
 <br>
 
-<div>
-<h3 id="docentes">Nuestros Docentes</h3>
+  <div class="column" onclick="openTab('b2');" style="background:rgb(185, 136, 71);">Clases para Intermedios</div>
+  <div id="b2" class="containerTab" style="display:none;background:rgb(185, 136, 71)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn" style="color: rgb(107, 67, 15);">x</span>
+    <img id="imagen-intermedio" src="./images/ceramica-principal2.webp" alt="">
+    <h2>Clases para Intermedios</h2>
+    <p>Lorem ipsum..</p>
+  </div>
+
+  <br>
+
+  <div class="column" onclick="openTab('b3');" style="background:rgb(155, 107, 52);">Clases para Avanzados</div>
+  <div id="b3" class="containerTab" style="display:none;background:rgb(155, 107, 52)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn" style="color: rgb(107, 67, 15);">x</span>
+    <img id="imagen-avanzado" src="./images/ceramica-principal3.webp" alt="">
+    <h2>Clases para Avanzados</h2>
+    <p>Lorem ipsum..</p>
+  </div>
+</div>
+
+
+
+
+<!--  -->
+<!--
+<div id="clases" class="container">
+  <div class="row1">
+    <div class="col">
+      <h3>Clases</h3>
+      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi accusamus, nesciunt quibusdam ullam quo architecto repellendus ut molestias nisi earum, exercitationem quasi aspernatur consequatur corporis modi omnis obcaecati atque quisquam.</h5>
+    </div>
+    <div class="col">
+      <h5>clases...</h5>
+    </div>
+  </div>
+</div>-->
+
+<br>
+
+<!-- SECCION DOCENTES -->
+
+<div id="docentes">
+<h3>Nuestros Docentes</h3>
 <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi pariatur incidunt, quisquam enim error, provident qui excepturi cum vero autem rerum ipsa quibusdam nesciunt sunt earum itaque! Voluptatibus, illum nisi?</h5>
 </div>
 
 <br>
 
-<div>
-  <h3 id="proyectos">Proyectos</h3>
+<!-- SECCION PROYECTOS -->
+
+<div id="proyectos">
+  <h3>Proyectos</h3>
   <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima amet laudantium cumque aut doloribus! Ratione similique iure velit veniam officia totam dolore, minus optio, tenetur consequuntur ipsum voluptatem illo non.</h5>
 </div>
 
 <br>
 
-<div>
-  <h3 id="nosotros">Sobre Nosotros</h3>
+<!-- SECCION SOBRE NOSOTROS -->
+
+<div id="nosotros">
+  <h3>Sobre Nosotros</h3>
   <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis at esse quo sapiente iste sed, ea totam quidem minima quibusdam nobis commodi soluta. Nostrum, officiis. Hic recusandae in non aut.</h5>
 </div>
 
@@ -91,13 +124,8 @@
 <br>
 
 <a href="https://www.w3schools.com/howto/howto_css_image_overlay_title.asp">Link a w3school</a>
-    
-    
-
- 
   
-
-    <a href="./contacto.html">Contactar a Tortas</a> <button type="button" class="btn btn-info">Tortas</button>
+<a href="./contacto.html">Contactar a Tortas</a> <button type="button" class="btn btn-info">Tortas</button>
 
 <br>
 <br>
@@ -107,9 +135,9 @@
         <div class="row">
           <div class="col">
             Column
-            <!--  < nombre propiedad="valor"> </nombre>-->
+    <!--  < nombre propiedad="valor"> </nombre>-->       
     <!-- type = disk - stichpunkte, circle - stichpunkte vaios, 
-        square - cuadrado-->
+        square - cuadrado-->  
     <ul type="disk">Tortas Tradicionales
         <li>Chocotorta</li>
         <li>Cheesecake</li>
@@ -197,4 +225,5 @@
 
 </body>
 <script src="https://kit.fontawesome.com/2aa33db76e.js" crossorigin="anonymous"></script>
+<script src="indesJS.js"></script>
 </html>
