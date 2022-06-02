@@ -23,11 +23,11 @@ nav {
 
   /* The navigation bar */
 .navbar {
-  overflow: hidden;
-  background-color: rgb(223, 171, 75);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  overflow: hidden;
+  background-color: rgb(223, 171, 75);
 }
 
 /* Links inside the navbar */
@@ -77,7 +77,7 @@ body, html {
 }
 
 body {
-    background:#be774e;
+    background:rgb(223, 171, 75);
   }
   
   .arrows {
@@ -90,9 +90,9 @@ body {
   }
   
   .arrows path {
-    stroke: #976d5d;
+    stroke: rgb(107, 67, 15);
     fill: transparent;
-    stroke-width: 1px;  
+    stroke-width: 5px;  
     animation: arrow 2s infinite;
     -webkit-animation: arrow 2s infinite; 
   }
@@ -163,6 +163,7 @@ body {
   color: white;
   font-size: 35px;
   cursor: pointer;
+  margin-right: 30px;
 }
 
 #imagen-principiante{
@@ -196,18 +197,18 @@ body {
 }
 
 #yoda{
-  width: 80%;
-}
-
-#rick{
-  width: 80%;
-}
-
-#tyrion{
   width: 100%;
 }
 
-#wanda{
+#rick{
+  width: 100%;
+}
+
+#tyrionL{
+  width: 100%;
+}
+
+#wandaM{
   width: 100%;
 }
 
@@ -233,7 +234,7 @@ body {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
-  width: 73%;
+  width: 81.1%;
   transition: .5s ease;
   opacity:0;
   color: white;
