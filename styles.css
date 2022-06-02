@@ -189,11 +189,15 @@ body {
   width: 25%;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+#nuestros-docentes{
+  margin-right: 10px;
 }
 
 #yoda{
@@ -214,14 +218,13 @@ body {
 
 * {box-sizing: border-box}
 
-/* Container needed to position the overlay. Adjust the width as needed */
 .col {
   position: relative;
   width: 50%;
   max-width: 300px;
 }
 
-/* Make the image to responsive */
+
 .image {
   display: block;
   width: 100%;
@@ -234,7 +237,7 @@ body {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
-  width: 81.1%;
+  width: 79%;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -246,6 +249,45 @@ body {
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
+}
+
+/* SECCION DOCENTES*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 60px;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
 }
 
 /*
@@ -263,6 +305,7 @@ menu > a > li{
 .col{
   background-color: antiquewhite;
 }*/
+
 
 
 .btn btn btn-info {background-color: #aa948c;}
