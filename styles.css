@@ -277,6 +277,7 @@ button:hover, a:hover {
     bottom: 15px;
     right: 15px;
     color: rgb(107, 67, 15);
+    z-index: 1;
 }
 
 #foto-wpp{
@@ -285,6 +286,7 @@ button:hover, a:hover {
     bottom: 40px;
     right: 10px;
     color: rgb(107, 67, 15);
+    z-index: 1;
 }
 
 /*SECCION SOBRE NOSOTROS/FOOTER*/
