@@ -135,10 +135,6 @@ body {
   text-decoration: underline;
 }
 
-#b1 a:hover{
-  text-decoration: underline;
-}
-
 .closebtn {
   float: right;
   color: white;
