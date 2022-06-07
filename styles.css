@@ -1,10 +1,15 @@
 
+html{
+  scroll-padding-top: 70px;
+}
+
 .navbar {
-  position: fixed; 
+  position: fixed!important; 
   top: 0; 
   width: 100%; 
   overflow: hidden;
   background-color: rgb(223, 171, 75);
+  z-index: 1!important;
 }
 
 
@@ -19,7 +24,7 @@
 
 
 .navbar a:hover {
-  color: #140a03;
+  color: #333;
   text-decoration: underline;
 }
 
@@ -112,7 +117,7 @@ body {
 .column {
   float: left;
   width: 33.33%;
-  padding: 50px;
+  padding: 80px;
   text-align: center;
   font-size: 25px;
   cursor: pointer;
