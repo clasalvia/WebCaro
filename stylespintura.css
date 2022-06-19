@@ -5,6 +5,7 @@
   width: 100%; 
   overflow: hidden;
   background-color: rgb(223, 171, 75);
+  z-index: 1!important;
  }
 
 #logo-header{width: 4%; 
@@ -118,3 +119,19 @@
   .demo:hover {
     opacity: 1;
   }
+
+  /*SECCION INSCRIPCION*/
+
+  #i-pintura {
+    position: relative;
+    text-align: center;
+    color: rgb(107, 67, 15);
+  }
+
+  /*SECCION SOBRE NOSOTROS/FOOTER*/
+
+footer{position: relative;
+  bottom: 0px;
+  background-color: rgb(104, 93, 77);
+  color: brgb(107, 67, 15);}
+  
