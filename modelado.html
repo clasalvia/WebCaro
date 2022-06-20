@@ -7,7 +7,7 @@
     <title>Modelado</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesmodelado.css">
     <link rel="shortcut icon" href="./images/ceramica-logo.jpg">
 
      <!-- SECCION NAVBAR -->
@@ -15,15 +15,125 @@
      <div class="navbar">
         <img id="logo-header" src="./images/ceramica-logo.jpg" alt="">
         <a href="index.html"><h4><strong>Crear Ceramica</strong></h4></a>
-        <a href="index.html#clases"><h6>Clases</h6></a>
-        <a href="index.html#docentes"><h6>Nuestros Docentes</h6></a>
-        <a href="index.html#proyectos"><h6>Proyectos</h6></a>
-        <a href="index.html#contacto"><h6>Contacto</h6></a>
+        <a href="modelado.html"><h6>Clases de Modelado</h6></a>
+        <a href="pintura.html"><h6>Clases de Pintura</h6></a>
+        <a href="alfareria.html"><h6>Clases de Alfareria</h6></a>
+        <a href="#contacto"><h6>Contacto</h6></a>
         <a href="inscripcion.html"><h6>Inscribirse</h6></a>
     </div>
 
 </head>
 <body>
-    <h1>esta es la pagina para el modelado</h1>
+
+<!-- SECCION CLASES -->
+
+<div class="row" id="clases" style="margin-top: 150px;">
+    <div class="column" onclick="openTab('b1');" style="background:rgb(223, 171, 75);"><h1><strong>Clases para Principiantes</strong></h1></div>
+  
+    <div class="column" onclick="openTab('b2');" style="background:rgb(185, 136, 71);"><h1><strong>Clases para Intermedios</strong></h1></div>
+    
+    <div class="column" onclick="openTab('b3');" style="background:rgb(155, 107, 52);"><h1><strong>Clases para Avanzados</strong></h1></div>
+    
+    <div id="b1" class="containerTab" style="display:none;background:rgb(223, 171, 75)">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn" style="color: rgb(107, 67, 15);"> <a href="#clases" style="color: rgb(107, 67, 15);">x</a></span>
+      <img id="imagen-principiante" src="./images/ceramica-principal4.jpg" alt="">
+      <br>
+      <h3>Esta muy bien ser principiante, por algún lado se empieza!</h3>
+      <br><h3>Acá te dejo las clases grupales para arrancar con toda:</h3>
+      <br><h4><strong>Clases Grupales:</strong> Lunes, Martes, Miercoles y Jueves a las 11hs, a las 17hs y a las 18hs</h4>
+      <br><h4>La duración de la clase es de 1 hora.</h4>
+    </div>
+  
+    <div id="b2" class="containerTab" style="display:none;background:rgb(185, 136, 71)">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn" style="color: rgb(107, 67, 15);"><a href="#clases" style="color: rgb(107, 67, 15);">x</a></span>
+      <img id="imagen-intermedio" src="./images/ceramica-principal2.webp" alt="">
+      <h3>Muy bien! Ya estamos mas expertos! <br> <br> Los horarios para el nivel intermedio son:</h3>
+      <br><h4><strong>Clases grupales:</strong> Lunes, Martes, Miercoles y Viernes a las 11hs, a las 17hs y a las 18:30hs</h4>
+      <br><h4>La duración de la clase es de 1 hora y 30 minutos.</h4>
+    </div>
+  
+    <div id="b3" class="containerTab" style="display:none;background:rgb(155, 107, 52)">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn" style="color: rgb(107, 67, 15);"><a href="#clases" style="color:rgb(107, 67, 15);">x</a></span>
+      <img id="imagen-avanzado" src="./images/ceramica-principal3.webp" alt="">
+      <h3>Como ya estás re picado, ahora también tenés la opción de tomar clases individuales!</h3>
+      <br><h4><strong>Clases grupales:</strong> Lunes y Jueves a las 10hs y a las 18hs</h4>
+      <br><h4>Para tomar <strong>clases individuales</strong> contactarse con nosotros.</h4>
+      <br><h4>La duración de la clase es de 2 horas.</h4>
+    </div>
+  </div>
+  
+  
+  <!-- SECCION DOCENTES -->
+  
+  <div id="docentes">
+    <br>
+    <h3 id="nuestros-docentes" style="color: rgb(107, 67, 15); text-align: center;">Nuestros Docentes:</h3>
+    <br>
+    <div class="row">
+  
+      <div class="col">
+        <div class="container">
+        <img id="yoda" src="./images/yoda.webp" alt="" class="image">
+        <div class="overlay">Yoda - No caption needed</div>
+      </div>
+      </div>
+  
+      <div class="col">
+        <div class="container">
+        <img id="rick" src="./images/rick.jpg" alt="" class="image">
+        <div class="overlay">Rick - Smartest man in the universe</div>
+        </div>
+      </div>
+  
+      <div class="col"> 
+        <div class="container">
+        <img id="tyrionL" src="./images/tyrionL.jpg" alt="" class="image">
+        <div class="overlay">Tyrion - "That's what I do. I drink and I know things"</div>
+      </div>
+      </div>
+  
+      <div class="col">
+        <div class="container">
+        <img id="wandaM" src="./images/wandaM.png" alt="" class="image">
+        <div class="overlay">Wanda - Esta medio loca, pero la rompe toda</div>
+      </div>
+      </div>
+      <h6 style="color: rgb(107, 67, 15); text-align: center;">Disclamer: <br> Todos están totalmente capacitados para enseñar, ninguno tiene problemas mentales ni nada.</h6>
+  
+    </div>
+    <br>
+  </div>
+  
+  
+    <!-- SECCION INSCRIPCION -->
+  
+  <a href="inscripcion.html" id="i-pintura"><h2>Inscribite a nuestras clases de Modelado!</h2></a>
+  
+  
+    <!-- SECCION SOBRE NOSOTROS/FOOTER -->
+  
+    <footer id="contacto">
+      <br>
+      <h3 style="margin-left: 10px;"><strong>Contacto</strong></h3>
+      <div class="row">
+        <div class="col">
+          <ul>
+            <br>
+            <li><h4> Numero: +5491158587070 (WhatsApp)</h4></li>
+            <br>
+            <li><h4> Mail: crearceramica@gmail.com</h4></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Ubicación:</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.5143752699646!2d-58.408579485193805!3d-34.64171046701544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335326563a44b%3A0x687ed059ee29af95!2sITBA%20Sede%20Rectorado!5e0!3m2!1ses!2sar!4v1654219190019!5m2!1ses!2sar" 
+          width="30%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <br>
+        </div>
+      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><strong>↑</strong></button>
+    </footer>
+
 </body>
+<script src="indesJS.js"></script>
 </html>
