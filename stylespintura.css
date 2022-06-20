@@ -96,19 +96,19 @@ html{
 
   .caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: rgb(155, 107, 52);
     padding: 2px 16px;
-    color: white;
+    color: rgb(107, 67, 15);
   }
   
-  .row:after {
+  .row-i:after {
     content: "";
     display: table;
     clear: both;
   }
   
 
-  .column {
+  .column-i {
     float: left;
     width: 16.66%;
   }
@@ -122,6 +122,128 @@ html{
   .demo:hover {
     opacity: 1;
   }
+
+  /* SECCION CLASES*/
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 80px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(107, 67, 15);
+}
+
+.containerTab {
+  padding: 75px;
+  color: rgb(107, 67, 15);
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row a:hover {
+  text-decoration: underline;
+}
+
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+#imagen-principiante{
+  float: right;
+  width: 25%;
+  margin-right: 100px;
+}
+
+#imagen-intermedio{
+  float: right;
+  width: 25%;
+  margin-right: 100px;
+}
+
+#imagen-avanzado{
+  float: right;
+  width: 25%;
+  margin-right: 100px;
+}
+
+/*SECCION DOCENTES*/
+
+.col {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#nuestros-docentes{
+  margin-right: 10px;
+}
+
+#yoda{
+  width: 100%;
+}
+
+#rick{
+  width: 100%;
+}
+
+#tyrionL{
+  width: 100%;
+}
+
+#wandaM{
+  width: 100%;
+}
+
+* {box-sizing: border-box}
+
+.col {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 79%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
 
   /*SECCION INSCRIPCION*/
 
