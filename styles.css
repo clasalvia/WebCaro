@@ -1,17 +1,15 @@
-
-html{
+html {
   scroll-padding-top: 70px;
 }
 
 .navbar {
-  position: fixed!important; 
-  top: 0; 
-  width: 100%; 
+  position: fixed !important;
+  top: 0;
+  width: 100%;
   overflow: hidden;
   background-color: rgb(223, 171, 75);
-  z-index: 1!important;
+  z-index: 1 !important;
 }
-
 
 .navbar a {
   float: left;
@@ -22,25 +20,26 @@ html{
   text-decoration: none;
 }
 
-
 .navbar a:hover {
   color: #333;
   text-decoration: underline;
 }
 
-  #logo-header{width: 4%; 
-    display: inline;
-    margin-bottom: 0px;
-    margin-left: 10px;
+#logo-header {
+  width: 4%;
+  display: inline;
+  margin-bottom: 0px;
+  margin-left: 10px;
 }
 
-
-body, html {
+body,
+html {
   height: 100%;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/ceramica-principal.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/ceramica-principal.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,179 +58,69 @@ body, html {
 }
 
 body {
-    background:rgb(223, 171, 75);
-  }
-  
-  .arrows {
-    width: 60px;
-    height: 72px;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    bottom: 20px;
-  }
-  
-  .arrows path {
-    stroke: rgb(107, 67, 15);
-    fill: transparent;
-    stroke-width: 5px;  
-    animation: arrow 2s infinite;
-    -webkit-animation: arrow 2s infinite; 
-  }
-  
-  @keyframes arrow
-  {
-  0% {opacity:0}
-  40% {opacity:1}
-  80% {opacity:0}
-  100% {opacity:0}
-  }
-  
-  @-webkit-keyframes arrow 
-  {
-  0% {opacity:0}
-  40% {opacity:1}
-  80% {opacity:0}
-  100% {opacity:0}
-  }
-  
-  .arrows path.a1 {
-    animation-delay:-1s;
-    -webkit-animation-delay:-1s; 
-  }
-  
-  .arrows path.a2 {
-    animation-delay:-0.5s;
-    -webkit-animation-delay:-0.5s; 
-  }
-  
-  .arrows path.a3 { 
-    animation-delay:0s;
-    -webkit-animation-delay:0s; 
-  }
-
-
-
-/* SECCION CLASES*/
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 80px;
-  text-align: center;
-  font-size: 25px;
-  cursor: pointer;
-  color: rgb(107, 67, 15);
+  background: rgb(223, 171, 75);
 }
 
-.containerTab {
-  padding: 75px;
-  color: rgb(107, 67, 15);
-}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row a:hover {
-  text-decoration: underline;
-}
-
-.closebtn {
-  float: right;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-  margin-right: 30px;
-}
-
-#imagen-principiante{
-  float: right;
-  width: 25%;
-  margin-right: 100px;
-}
-
-#imagen-intermedio{
-  float: right;
-  width: 25%;
-  margin-right: 100px;
-}
-
-#imagen-avanzado{
-  float: right;
-  width: 25%;
-  margin-right: 100px;
-}
-
-/*SECCION DOCENTES*/
-
-.col {
-  float: left;
-  width: 25%;
-}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#nuestros-docentes{
-  margin-right: 10px;
-}
-
-#yoda{
-  width: 100%;
-}
-
-#rick{
-  width: 100%;
-}
-
-#tyrionL{
-  width: 100%;
-}
-
-#wandaM{
-  width: 100%;
-}
-
-* {box-sizing: border-box}
-
-.col {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
-}
-
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
+.arrows {
+  width: 60px;
+  height: 72px;
   position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); 
-  color: #f1f1f1;
-  width: 79%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
 }
 
-.container:hover .overlay {
-  opacity: 1;
+.arrows path {
+  stroke: rgb(107, 67, 15);
+  fill: transparent;
+  stroke-width: 5px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s;
+}
+
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
+}
+
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
 }
 
 /* SECCION PROYECTOS*/
@@ -269,18 +158,19 @@ a {
   color: black;
 }
 
-button:hover, a:hover {
+button:hover,
+a:hover {
   opacity: 0.7;
 }
 
-
-
 /*SECCION SOBRE NOSOTROS/FOOTER*/
 
-footer{position: relative;
-bottom: 0px;
-background-color: rgb(104, 93, 77);
-color: brgb(107, 67, 15);}
+footer {
+  position: relative;
+  bottom: 0px;
+  background-color: rgb(104, 93, 77);
+  color: brgb(107, 67, 15);
+}
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -303,4 +193,3 @@ color: brgb(107, 67, 15);}
 #myBtn:hover {
   background-color: rgb(148, 93, 22); /* Add a dark-grey background on hover */
 }
-

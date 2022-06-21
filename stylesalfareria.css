@@ -1,40 +1,40 @@
-html{
+html {
   scroll-padding-top: 70px;
 }
 
 .navbar {
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    overflow: hidden;
-    background-color: rgb(223, 171, 75);
-    z-index: 1!important;
-   }
-  
-  #logo-header{width: 4%; 
-    display: inline;
-    margin-bottom: 0px;
-    margin-left: 10px;
-   }
-  
-  .navbar a {
-    float: left;
-    display: block;
-    color: rgb(107, 67, 15);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-   }
-  
-  
-  .navbar a:hover {
-    color: #333;
-    text-decoration: underline;
-   }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(223, 171, 75);
+  z-index: 1 !important;
+}
+
+#logo-header {
+  width: 4%;
+  display: inline;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(107, 67, 15);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #333;
+  text-decoration: underline;
+}
 
 /*SECCION COUNTODWN*/
 
-.container{
+.container {
   margin-top: 80px;
   width: 100%;
   min-height: 100vh;
@@ -42,7 +42,8 @@ html{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/ceramica-principal.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/ceramica-principal.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,25 +52,25 @@ html{
   color: rgb(223, 171, 75);
 }
 
-.countdown{
+.countdown {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
   flex-wrap: wrap;
 }
 
-.countdown div{
+.countdown div {
   display: grid;
   place-items: center;
   padding: 10px;
 }
 
-h1{
+h1 {
   text-align: center;
   padding: 30px 10px;
 }
 
-p{
+p {
   display: grid;
   place-items: center;
   border: solid 1px #333;
@@ -81,7 +82,7 @@ p{
   background-color: rgb(107, 67, 15);
 }
 
-span{
+span {
   display: block;
   padding: 10px;
   text-align: center;
@@ -89,7 +90,7 @@ span{
   font-weight: 400;
 }
 
-.mensaje-final{
+.mensaje-final {
   position: absolute;
   left: 0;
   right: 0;
@@ -100,13 +101,14 @@ span{
   transform: translateY(-100%);
   transition: ease-in-out 0.5s;
   color: rgb(223, 171, 75);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/ceramica-principal.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/ceramica-principal.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.mensaje-final h2{
+.mensaje-final h2 {
   text-align: center;
 }
