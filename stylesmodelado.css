@@ -32,6 +32,16 @@ html{
     text-decoration: underline;
    }
 
+/* SECCION EXPLICACION*/
+
+#explicacion{
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: rgb(107, 67, 15);
+  text-align: center;
+}
+
  /* SECCION CLASES*/
 
 .column {
@@ -122,9 +132,9 @@ html{
 
 * {box-sizing: border-box}
 
-.col {
+.container {
   position: relative;
-  width: 50%;
+  width: 100%;
   max-width: 300px;
 }
 
@@ -141,7 +151,7 @@ html{
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1;
-  width: 79%;
+  width: 84%;
   transition: .5s ease;
   opacity:0;
   color: white;

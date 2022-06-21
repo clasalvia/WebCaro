@@ -32,58 +32,146 @@ html{
     text-decoration: underline;
    }
 
-/* Set height to 100% for body and html to enable the background image to cover the whole page: */
-body, html {
-  height: 100%
-}
 
-.bgimg {
-  /* Background image */
-  background-image: url('./images/ceramica-principal.jpg'); width: 100%;
-  /* Full-screen */
-  height: 100%;
-  /* Center the background image */
-  background-position: center;
-  /* Scale and zoom in the image */
-  background-size: cover;
-  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-  position: relative;
-  /* Add a white text color to all elements inside the .bgimg container */
+/*SECCION EXPLICACION*/
+
+#explicacion{
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
   color: rgb(107, 67, 15);
-  /* Set the font-size to 25 pixels */
+  text-align: center;
+}
+
+/* SECCION CLASES*/
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 80px;
+  text-align: center;
   font-size: 25px;
+  cursor: pointer;
+  color: rgb(107, 67, 15);
+}
+
+.containerTab {
+  padding: 75px;
+  color: rgb(107, 67, 15);
 }
 
 
-/* Position text in the bottom-left corner */
-.bottomleft {
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row a:hover {
+  text-decoration: underline;
+}
+
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+#imagen-principiante{
+  float: right;
+  width: 25%;
+  margin-right: 100px;
+}
+
+#imagen-intermedio{
+  float: right;
+  width: 25%;
+  margin-right: 100px;
+}
+
+#imagen-avanzado{
+  float: right;
+  width: 25%;
+  margin-right: 100px;
+}
+
+/*SECCION DOCENTES*/
+
+.col {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#nuestros-docentes{
+  margin-right: 10px;
+}
+
+#yoda{
+  width: 100%;
+}
+
+#rick{
+  width: 100%;
+}
+
+#tyrionL{
+  width: 100%;
+}
+
+#wandaM{
+  width: 100%;
+}
+
+* {box-sizing: border-box}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
   position: absolute;
   bottom: 0;
-  left: 16px;
-}
-
-/* Position text in the middle */
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 84%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
   text-align: center;
 }
 
-/* Style the <hr> element */
-hr {
-  margin: auto;
-  width: 40%;
+.container:hover .overlay {
+  opacity: 1;
 }
 
-.timer {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+  /*SECCION INSCRIPCION*/
+
+  #i-pintura {
+    position: relative;
+    text-align: center;
+    color: rgb(107, 67, 15);
+  }
 
   /*SECCION INSCRIPCION*/
 
@@ -100,6 +188,12 @@ footer{position: relative;
   bottom: 0px;
   background-color: rgb(104, 93, 77);
   color: brgb(107, 67, 15);}
+
+  .col-c{
+    float: left;
+    width: 50%;
+    background-color: rgb(104, 93, 77);
+  }
   
   #myBtn {
     display: none; /* Hidden by default */

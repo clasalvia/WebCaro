@@ -1,4 +1,4 @@
-//esta es la segunda opcion. redireccionarlo a otro documento que se JS//
+//esta es la segunda opcion. redireccionarlo a otro documento que es JS//
 
 console.log("soy externo")
 
