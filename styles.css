@@ -274,27 +274,6 @@ button:hover, a:hover {
 }
 
 
-/*SECCION LOGOS ESQUINA ABAJO DERECHA*/
-
-/*
-#foto-mail{
-    width: 50px;
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    color: rgb(107, 67, 15);
-    z-index: 1;
-}
-
-#foto-wpp{
-    width: 55px;
-    position: fixed;
-    bottom: 40px;
-    right: 10px;
-    color: rgb(107, 67, 15);
-    z-index: 1;
-}
-*/
 
 /*SECCION SOBRE NOSOTROS/FOOTER*/
 
@@ -324,3 +303,4 @@ color: brgb(107, 67, 15);}
 #myBtn:hover {
   background-color: rgb(148, 93, 22); /* Add a dark-grey background on hover */
 }
+

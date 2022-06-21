@@ -1,0 +1,22 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(148, 93, 22);
+    font-size: xx-large;
+}
+
+
+.caja {
+    text-align: center;
+}
+
+.caja a{
+    color: rgb(148, 93, 22);
+}
+
+.caja a:hover{
+    color: black;
+}
