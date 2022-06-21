@@ -8,7 +8,7 @@ $mensajeFinal = document.querySelector('.mensaje-final');
 $container = document.querySelector('.container');
 
 //Fecha fututo
-const fechaFuturo = new Date('Jul 30, 2022 12:41:00').getTime();
+const fechaFuturo = new Date('Jul 30, 2022 12:00:00').getTime();
 
 let intervalo = setInterval(function(){
   //Fecha Actual
