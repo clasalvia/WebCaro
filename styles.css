@@ -127,11 +127,11 @@ body {
 
 /* SECCION PROYECTOS*/
 
-#proyectos{
+#proyectos {
   background-color: rgb(185, 136, 71);
 }
 
-#proyectos h3{
+#proyectos h3 {
   color: rgb(107, 67, 15);
   padding-top: 15px;
   padding-bottom: 10px;
@@ -185,31 +185,31 @@ footer {
   position: relative;
 }
 
-footer h3{
+footer h3 {
   margin-left: 10px;
   padding: 10px;
 }
 
-footer h4{
+footer h4 {
   padding: 10px;
 }
 
 #myBtn {
-  background-color: rgb(107, 67, 15); 
+  background-color: rgb(107, 67, 15);
   border-radius: 10px;
-  border: none;  
-  bottom: 20px; 
-  color: white; 
-  cursor: pointer; 
-  display: none; 
-  font-size: 18px; 
+  border: none;
+  bottom: 20px;
+  color: white;
+  cursor: pointer;
+  display: none;
+  font-size: 18px;
   height: 40px;
-  outline: none; 
-  padding: 15px; 
-  position: fixed; 
-  right: 30px; 
+  outline: none;
+  padding: 15px;
+  position: fixed;
+  right: 30px;
   width: 3%;
-  z-index: 99; 
+  z-index: 99;
 }
 
 #myBtn:hover {
