@@ -39,7 +39,7 @@
         básicas para modelar, así las combinaciones de varias de ellas, estas
         pueden ser: Colombín, modelado de placa y colombines.
       </h4>
-      <img src="./images/modelado.jpg" alt="Modelado" style="width: 30%" />
+      <img src="./images/modelado.jpg" alt="Modelado" id="imagen-explicacion" />
       <h3>
         <strong
           >En nuestras clases de Modelado te invitamos a desarrollar tus ideas y
@@ -53,46 +53,29 @@
     <!-- SECCION CLASES -->
 
     <div class="row" id="clases">
-      <div
-        id="columna1"
-        class="column"
-        onclick="openTab('b1');"
-      >
+      <div id="columna1" class="column" onclick="openTab('b1');">
         <h1><strong>Clases para Principiantes</strong></h1>
       </div>
 
-      <div
-        id="columna2"
-        class="column"
-        onclick="openTab('b2');"
-      >
+      <div id="columna2" class="column" onclick="openTab('b2');">
         <h1><strong>Clases para Intermedios</strong></h1>
       </div>
 
-      <div
-        id="columna3"
-        class="column"
-        onclick="openTab('b3');"
-      >
+      <div id="columna3" class="column" onclick="openTab('b3');">
         <h1><strong>Clases para Avanzados</strong></h1>
       </div>
 
-      <div
-        id="b1"
-        class="containerTab"
-        style="display: none; background: rgb(223, 171, 75)"
-      >
+      <div id="b1" class="containerTab">
         <span
           onclick="this.parentElement.style.display='none'"
           class="closebtn"
-          style="color: rgb(107, 67, 15)"
         >
-          <a href="#clases" style="color: rgb(107, 67, 15)">x</a></span
+          <a href="#clases">x</a></span
         >
         <img
           id="imagen-principiante"
           src="./images/ceramica-principal4.jpg"
-          alt=""
+          alt="Modelado"
         />
         <br />
         <h3>Esta muy bien ser principiante, por algún lado se empieza!</h3>
@@ -107,18 +90,15 @@
         <h4>La duración de la clase es de 1 hora.</h4>
       </div>
 
-      <div
-        id="b2"
-        class="containerTab"
-        style="display: none; background: rgb(185, 136, 71)"
-      >
-        <span
-          onclick="this.parentElement.style.display='none'"
-          class="closebtn"
-          style="color: rgb(107, 67, 15)"
-          ><a href="#clases" style="color: rgb(107, 67, 15)">x</a></span
+      <div id="b2" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          ><a href="#clases">x</a></span
         >
-        <img id="imagen-intermedio" src="./images/pintura5.jpg" alt="" />
+        <img
+          id="imagen-intermedio"
+          src="./images/pintura5.jpg"
+          alt="Modelado"
+        />
         <h3>
           Muy bien! Ya estamos mas expertos! <br />
           <br />
@@ -133,18 +113,11 @@
         <h4>La duración de la clase es de 1 hora.</h4>
       </div>
 
-      <div
-        id="b3"
-        class="containerTab"
-        style="display: none; background: rgb(155, 107, 52)"
-      >
-        <span
-          onclick="this.parentElement.style.display='none'"
-          class="closebtn"
-          style="color: rgb(107, 67, 15)"
-          ><a href="#clases" style="color: rgb(107, 67, 15)">x</a></span
+      <div id="b3" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          ><a href="#clases">x</a></span
         >
-        <img id="imagen-avanzado" src="./images/modelado1.jpg" alt="" />
+        <img id="imagen-avanzado" src="./images/modelado1.jpg" alt="Modelado" />
         <h3>
           Como ya estás re picado, ahora también tenés la opción de tomar clases
           individuales!
@@ -167,32 +140,30 @@
     <!-- SECCION DOCENTES -->
 
     <div id="docentes">
-      <br />
-      <h3
-        id="nuestros-docentes"
-        style="color: rgb(107, 67, 15); text-align: center"
-      >
-        Nuestros Docentes:
-      </h3>
-      <br />
+      <h3 id="nuestros-docentes">Nuestros Docentes:</h3>
       <div class="row">
         <div class="col">
           <div class="container">
-            <img id="yoda" src="./images/messi.jpg" alt="" class="image" />
+            <img id="yoda" src="./images/messi.jpg" alt="Messi" class="image" />
             <div class="overlay">Messi - Traeme la copa</div>
           </div>
         </div>
 
         <div class="col">
           <div class="container">
-            <img id="rick" src="./images/rick.jpg" alt="" class="image" />
+            <img id="rick" src="./images/rick.jpg" alt="Rick" class="image" />
             <div class="overlay">Rick - Smartest man in the universe</div>
           </div>
         </div>
 
         <div class="col">
           <div class="container">
-            <img id="tyrionL" src="./images/tyrionL.jpg" alt="" class="image" />
+            <img
+              id="tyrionL"
+              src="./images/tyrionL.jpg"
+              alt="Tyrion"
+              class="image"
+            />
             <div class="overlay">
               Tyrion - "That's what I do. I drink and I know things"
             </div>
@@ -201,13 +172,18 @@
 
         <div class="col">
           <div class="container">
-            <img id="wandaM" src="./images/wandaM.png" alt="" class="image" />
+            <img
+              id="wandaM"
+              src="./images/wandaM.png"
+              alt="Wanda"
+              class="image"
+            />
             <div class="overlay">
               Wanda - Esta medio loca, pero la rompe toda
             </div>
           </div>
         </div>
-        <h6 style="color: rgb(107, 67, 15); text-align: center">
+        <h6>
           Disclamer: <br />
           Todos están totalmente capacitados para enseñar, ninguno tiene
           problemas mentales ni nada.
@@ -225,14 +201,11 @@
     <!-- SECCION SOBRE NOSOTROS/FOOTER -->
 
     <footer id="contacto">
-      <br />
-      <h3 style="margin-left: 10px"><strong>Contacto</strong></h3>
+      <h3><strong>Contacto</strong></h3>
       <div class="row">
         <div class="col">
           <ul>
-            <br />
             <li><h4>Numero: +5491158587070 (WhatsApp)</h4></li>
-            <br />
             <li><h4>Mail: crearceramica@gmail.com</h4></li>
           </ul>
         </div>
@@ -246,7 +219,6 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-          <br />
         </div>
       </div>
       <button onclick="topFunction()" id="myBtn" title="Go to top">

@@ -1,5 +1,5 @@
 //SECCION CLASES
-// Hide all elements with class="containerTab", except for the one that matches the clickable grid column
+// Se esconden los elementos con class="containerTab", excepto por el que coincide con la que se clikea
 function openTab(tabName) {
   let i, x;
   x = document.getElementsByClassName("containerTab");
@@ -10,10 +10,10 @@ function openTab(tabName) {
 }
 
 //SECCION BOTON SCROLL TO THE TOP
-//Get the button:
+//Boton
 mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// Cuando se baja 20px desde el top, se muestra el boton
 window.onscroll = function () {
   scrollFunction();
 };
@@ -26,8 +26,8 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+//Cuando se clickea en el boton, 'scroll' hasta arriba del documento
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0; //Safari
+  document.documentElement.scrollTop = 0; //Chrome, Firefox, IE y Opera
 }

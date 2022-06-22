@@ -3,33 +3,33 @@ html {
 }
 
 .navbar {
-  position: fixed;
+  background-color: rgb(223, 171, 75);
+  overflow: hidden;
+  position: fixed !important;
   top: 0;
   width: 100%;
-  overflow: hidden;
-  background-color: rgb(223, 171, 75);
   z-index: 1 !important;
 }
 
-#logo-header {
-  width: 4%;
-  display: inline;
-  margin-bottom: 0px;
-  margin-left: 10px;
-}
-
 .navbar a {
-  float: left;
-  display: block;
   color: rgb(107, 67, 15);
-  text-align: center;
+  display: block;
+  float: left;
   padding: 14px 16px;
+  text-align: center;
   text-decoration: none;
 }
 
 .navbar a:hover {
   color: #333;
   text-decoration: underline;
+}
+
+#logo-header {
+  display: inline;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  width: 4%;
 }
 
 /* SECCION EXPLICACION*/
@@ -42,7 +42,27 @@ html {
   text-align: center;
 }
 
+#imagen-explicacion{
+  width: 30%;
+}
+
 /* SECCION CLASES*/
+
+#clases{
+  margin-top: 67px;
+}
+
+#columna1{
+  background-color: rgb(223, 171, 75);
+}
+
+#columna2{
+  background-color: rgb(185, 136, 71);
+}
+
+#columna3 {
+  background-color: rgb(155, 107, 52);
+}
 
 .column {
   float: left;
@@ -69,12 +89,31 @@ html {
   text-decoration: underline;
 }
 
+#b1{
+  background-color: rgb(223, 171, 75);
+  display: none;
+}
+
+#b2{
+  background-color: rgb(185, 136, 71);
+  display: none;
+}
+
+#b3{
+  background-color: rgb(155, 107, 52);
+  display: none;
+}
+
 .closebtn {
   float: right;
-  color: white;
+  color: rgb(107, 67, 15);
   font-size: 35px;
   cursor: pointer;
   margin-right: 30px;
+}
+
+.closebtn a{
+  color: rgb(107, 67, 15);
 }
 
 #imagen-principiante {
@@ -96,6 +135,13 @@ html {
 }
 
 /*SECCION DOCENTES*/
+
+#nuestros-docentes{
+  color: rgb(107, 67, 15);
+  margin-right: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
 
 .col {
   float: left;
@@ -163,6 +209,11 @@ html {
   opacity: 1;
 }
 
+#docentes h6{
+  color: rgb(107, 67, 15);
+  text-align: center;
+}
+
 /*SECCION INSCRIPCION*/
 
 #i-pintura {
@@ -174,30 +225,39 @@ html {
 /*SECCION SOBRE NOSOTROS/FOOTER*/
 
 footer {
-  position: relative;
-  bottom: 0px;
   background-color: rgb(104, 93, 77);
+  bottom: 0px;
   color: brgb(107, 67, 15);
+  position: relative;
+}
+
+footer h3{
+  margin-left: 10px;
+  padding: 10px;
+}
+
+footer h4{
+  padding: 10px;
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: rgb(107, 67, 15); /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-  width: 3%;
+  background-color: rgb(107, 67, 15); 
+  border-radius: 10px;
+  border: none;  
+  bottom: 20px; 
+  color: white; 
+  cursor: pointer; 
+  display: none; 
+  font-size: 18px; 
   height: 40px;
+  outline: none; 
+  padding: 15px; 
+  position: fixed; 
+  right: 30px; 
+  width: 3%;
+  z-index: 99; 
 }
 
 #myBtn:hover {
-  background-color: rgb(148, 93, 22); /* Add a dark-grey background on hover */
+  background-color: rgb(148, 93, 22);
 }

@@ -3,33 +3,33 @@ html {
 }
 
 .navbar {
-  position: fixed;
+  background-color: rgb(223, 171, 75);
+  overflow: hidden;
+  position: fixed !important;
   top: 0;
   width: 100%;
-  overflow: hidden;
-  background-color: rgb(223, 171, 75);
   z-index: 1 !important;
 }
 
-#logo-header {
-  width: 4%;
-  display: inline;
-  margin-bottom: 0px;
-  margin-left: 10px;
-}
-
 .navbar a {
-  float: left;
-  display: block;
   color: rgb(107, 67, 15);
-  text-align: center;
+  display: block;
+  float: left;
   padding: 14px 16px;
+  text-align: center;
   text-decoration: none;
 }
 
 .navbar a:hover {
   color: #333;
   text-decoration: underline;
+}
+
+#logo-header {
+  display: inline;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  width: 4%;
 }
 
 /*SECCION COUNTODWN*/

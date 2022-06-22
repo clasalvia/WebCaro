@@ -16,7 +16,7 @@
 
     <!-- SECCION NAVBAR -->
     <div class="navbar">
-      <img id="logo-header" src="./images/ceramica-logo.jpg" alt="" />
+      <img id="logo-header" src="./images/ceramica-logo.jpg" alt="Logo" />
       <a href="index.html"
         ><h4><strong>Crear Cerámica</strong></h4></a
       >
@@ -38,7 +38,7 @@
         pintar baldosas como las del baño, látex para un perfecto acabado o
         engobe para colorear, que además de dar color aporta volumen y texturas.
       </h4>
-      <img src="./images/pintura1.jpg" alt="" style="width: 30%" />
+      <img src="./images/pintura1.jpg" alt="Pintura" id="imagen-explicacion" />
       <h3>
         <strong
           >En nuestras clases de Pintura te enseñamos a mezclar colores y armar
@@ -50,46 +50,31 @@
 
     <!-- SECCION CLASES -->
 
-    <div class="row" id="clases" style="margin-top: 67px">
-      <div
-        class="column"
-        onclick="openTab('b1');"
-        style="background: rgb(223, 171, 75)"
-      >
+    <div class="row" id="clases">
+      <div id="columna1" class="column" onclick="openTab('b1');">
         <h1><strong>Clases para Principiantes</strong></h1>
       </div>
 
-      <div
-        class="column"
-        onclick="openTab('b2');"
-        style="background: rgb(185, 136, 71)"
-      >
+      <div id="columna2" class="column" onclick="openTab('b2');">
         <h1><strong>Clases para Intermedios</strong></h1>
       </div>
 
-      <div
-        class="column"
-        onclick="openTab('b3');"
-        style="background: rgb(155, 107, 52)"
-      >
+      <div id="columna3" class="column" onclick="openTab('b3');">
         <h1><strong>Clases para Avanzados</strong></h1>
       </div>
 
-      <div
-        id="b1"
-        class="containerTab"
-        style="display: none; background: rgb(223, 171, 75)"
-      >
+      <div id="b1" class="containerTab">
         <span
           onclick="this.parentElement.style.display='none'"
           class="closebtn"
-          style="color: rgb(107, 67, 15)"
         >
-          <a href="pintura.html#clases" style="color: rgb(107, 67, 15)"
-            >x</a
-          ></span
+          <a href="pintura.html#clases">x</a></span
         >
-        <img id="imagen-principiante" src="./images/pintura4.jpg" alt="" />
+        <img
+          id="imagen-principiante"
+          src="./images/pintura4.jpg"
+          alt="Pintura"
+        />
         <br />
         <h3>Esta muy bien ser principiante, por algún lado se empieza!</h3>
         <br />
@@ -103,20 +88,11 @@
         <h4>La duración de la clase es de 1 hora.</h4>
       </div>
 
-      <div
-        id="b2"
-        class="containerTab"
-        style="display: none; background: rgb(185, 136, 71)"
-      >
-        <span
-          onclick="this.parentElement.style.display='none'"
-          class="closebtn"
-          style="color: rgb(107, 67, 15)"
-          ><a href="pintura.html#clases" style="color: rgb(107, 67, 15)"
-            >x</a
-          ></span
+      <div id="b2" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          ><a href="pintura.html#clases">x</a></span
         >
-        <img id="imagen-intermedio" src="./images/pintura2.jpg" alt="" />
+        <img id="imagen-intermedio" src="./images/pintura2.jpg" alt="Pintura" />
         <h3>
           Muy bien! Ya estamos mas expertos! <br />
           <br />
@@ -131,23 +107,14 @@
         <h4>La duración de la clase es de 1 hora.</h4>
       </div>
 
-      <div
-        id="b3"
-        class="containerTab"
-        style="display: none; background: rgb(155, 107, 52)"
-      >
-        <span
-          onclick="this.parentElement.style.display='none'"
-          class="closebtn"
-          style="color: rgb(107, 67, 15)"
-          ><a href="pintura.html#clases" style="color: rgb(107, 67, 15)"
-            >x</a
-          ></span
+      <div id="b3" class="containerTab">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn"
+          ><a href="pintura.html#clases">x</a></span
         >
         <img
           id="imagen-avanzado"
           src="./images/ceramica-principal3.webp"
-          alt=""
+          alt="Pintura"
         />
         <h3>
           Como ya estás re picado, ahora también tenés la opción de tomar clases
@@ -171,25 +138,23 @@
     <!-- SECCION DOCENTES -->
 
     <div id="docentes">
-      <br />
-      <h3
-        id="nuestros-docentes"
-        style="color: rgb(107, 67, 15); text-align: center"
-      >
-        Nuestros Docentes:
-      </h3>
-      <br />
+      <h3 id="nuestros-docentes">Nuestros Docentes:</h3>
       <div class="row">
         <div class="col">
           <div class="container">
-            <img id="yoda" src="./images/yoda.webp" alt="" class="image" />
+            <img id="yoda" src="./images/yoda.webp" alt="Yoda" class="image" />
             <div class="overlay">Yoda - No caption needed</div>
           </div>
         </div>
 
         <div class="col">
           <div class="container">
-            <img id="rick" src="./images/eleven.jpg" alt="" class="image" />
+            <img
+              id="rick"
+              src="./images/eleven.jpg"
+              alt="Eleven"
+              class="image"
+            />
             <div class="overlay">
               Eleven - Cuidado con tus pinturas, que a veces le sangra la nariz
             </div>
@@ -198,24 +163,33 @@
 
         <div class="col">
           <div class="container">
-            <img id="tyrionL" src="./images/nicki.jpg" alt="" class="image" />
-            <div class="overlay">Nicki Nicole - casate conmigo</div>
+            <img
+              id="tyrionL"
+              src="./images/nicki.jpg"
+              alt="Nicki Nicole"
+              class="image"
+            />
+            <div class="overlay">Nicki Nicole - Casate conmigo</div>
           </div>
         </div>
 
         <div class="col">
           <div class="container">
-            <img id="wandaM" src="./images/shelby.jpg" alt="" class="image" />
+            <img
+              id="wandaM"
+              src="./images/shelby.jpg"
+              alt="Thomas Shelby"
+              class="image"
+            />
             <div class="overlay">Thomas Shelby - Peaky Blinders</div>
           </div>
         </div>
-        <h6 style="color: rgb(107, 67, 15); text-align: center">
+        <h6>
           Disclamer: <br />
           Todos están totalmente capacitados para enseñar, ninguno tiene
           problemas mentales ni nada.
         </h6>
       </div>
-      <br />
     </div>
 
     <!-- SECCION INSCRIPCION -->
@@ -227,14 +201,11 @@
     <!-- SECCION SOBRE NOSOTROS/FOOTER -->
 
     <footer id="contacto">
-      <br />
       <h3 style="margin-left: 10px"><strong>Contacto</strong></h3>
       <div class="row">
         <div class="col">
           <ul>
-            <br />
             <li><h4>Numero: +5491158587070 (WhatsApp)</h4></li>
-            <br />
             <li><h4>Mail: crearceramica@gmail.com</h4></li>
           </ul>
         </div>
@@ -248,7 +219,6 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-          <br />
         </div>
       </div>
       <button onclick="topFunction()" id="myBtn" title="Go to top">
