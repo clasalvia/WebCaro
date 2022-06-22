@@ -112,3 +112,8 @@ span {
 .mensaje-final h2 {
   text-align: center;
 }
+
+.mensaje-final a{
+  color: rgb(223, 171, 75);
+  text-align: center;
+}

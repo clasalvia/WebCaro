@@ -125,6 +125,17 @@ body {
 
 /* SECCION PROYECTOS*/
 
+#proyectos{
+  background-color: rgb(185, 136, 71);
+}
+
+#proyectos h3{
+  color: rgb(107, 67, 15);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -170,6 +181,15 @@ footer {
   bottom: 0px;
   background-color: rgb(104, 93, 77);
   color: brgb(107, 67, 15);
+}
+
+footer h3{
+  margin-left: 10px;
+  padding: 10px;
+}
+
+footer h4{
+  padding: 10px;
 }
 
 #myBtn {

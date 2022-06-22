@@ -44,6 +44,22 @@ html {
 
 /* SECCION CLASES*/
 
+#clases{
+  margin-top: 27px;
+}
+
+#columna1{
+  background-color: rgb(223, 171, 75);
+}
+
+#columna2{
+  background-color: rgb(185, 136, 71);
+}
+
+#columna3 {
+  background-color: rgb(155, 107, 52);
+}
+
 .column {
   float: left;
   width: 33.33%;
